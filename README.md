@@ -14,6 +14,8 @@ Main.py is the runnable script that can generate all the results shown in the re
 
 4. Pre-trained LSTM models are saved in "model_files" folder, you can choose to skip the code cell configures model training.
 
+Please check attached report for details.
+
 ## Environment
 
 The whole project is developed in Python3.6. Please note that using other Python versions may lead to unknown errors. Required external libraries are shown below, where the recommended versions are also demonstrated:

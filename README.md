@@ -14,7 +14,7 @@ Main.py is the runnable script that can generate all the results shown in the re
 
 4. Pre-trained LSTM models are saved in "model_files" folder, you can choose to skip the code cell configures model training.
 
-Please check attached report for details.
+Please check attached [report](https://github.com/JianqiaoMao/AAPL_stock_price_prediction/blob/master/ECEL0136%20Assignment_SN20041534_Report.pdf) for details.
 
 ## Environment
 

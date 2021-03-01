@@ -8,7 +8,12 @@ Main.py is the runnable script that can generate all the results shown in the re
 
 1. The file reading directory (for dataset loading) is tested on Windows10 (x86) using Spyder as IDE, while uncertainty can be expected for running on OS or Linux or other IDEs. If errors encountered, please modify the path variables in main.py at line 34, 44 and 376 if uncommented. The data reading works on relative directory, try to excute main.py in the directory where it locates.
 
-2. Two ways can be used to load dataset of Apple's financials: 1) by web scraping; 2) by locally loading, where 2) is a backup for off-line execution. Please read the comments in "Load and process financial datasets" cell and comment/uncomment corresponding chunks of code. Note that the scraped data may vary due to updates of the web.
+2. Two ways can be used to load dataset of Apple's financials: 
+    
+    1) by web scraping; 
+    2) by locally loading, where 2) is a backup for off-line execution. 
+
+Please read the comments in "Load and process financial datasets" cell and comment/uncomment corresponding chunks of code. Note that the scraped data may vary due to updates of the web.
 
 3. Online datasets are independently stored in the Oracle Cloud using RESTful service. Please note that Oracle server sometimes break down with error code 500. If so, please try it later. Local datasets are stored in the "datasets" folder in CSV format.
 

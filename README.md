@@ -4,6 +4,8 @@
 
 Although many proposed stock price predicting models had great success in academia and industry, limitations can be experienced, i.e. they may fail to predict stock price accurately and in time. Some advanced data-driven methods have demonstrated stronger predictive capabilities, providing investors with the possibility of obtaining excess returns on investment. This project mainly investigates the importance of various features in predicting stock price with comprehensive data processing and analysis and conducts an empirical study to model the pattern of Apple Inc. (AAPL) stock price from April 2017 to May 2020 and predict its short-term trend. The experiment results show that features of AAPL stock trading volume, Nasdaq index and its trading volume, OCFPS and US retail sales can significantly contribute to improving the predictive capability of the model that uses historical stock price as the only predictor. The LSTM-based model achieves the lowest denormalized MSE at 0.06164 in the testing phase.
 
+<div align=center><img src=https://github.com/JianqiaoMao/AAPL_stock_price_prediction/blob/master/result.png width=900 /></div>
+
 Main.py is the runnable script that can generate all the results shown in the report, i.e. data acqusition, preprocessing, EDA and inference. Some hits here:
 
 1. The file reading directory (for dataset loading) is tested on Windows10 (x86) using Spyder as IDE, while uncertainty can be expected for running on OS or Linux or other IDEs. If errors encountered, please modify the path variables in main.py at line 34, 44 and 376 if uncommented. The data reading works on relative directory, try to excute main.py in the directory where it locates.

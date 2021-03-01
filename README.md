@@ -21,18 +21,31 @@ Please check attached [report](https://github.com/JianqiaoMao/AAPL_stock_price_p
 The whole project is developed in Python3.6. Please note that using other Python versions may lead to unknown errors. Required external libraries are shown below, where the recommended versions are also demonstrated:
 
 numpy 1.19.1
+
 pandas 1.1.3
+
 requests 2.24.0
+
 urllib3 1.25.10
+
 ujson 4.0.1
+
 seaborn 0.11.0
+
 matplotlib 3.3.2
+
 scipy 1.5.3
+
 joblib 0.17.0
+
 statsmodels 0.12.1
+
 fbprophet 0.7.1
+
 scikit-learn 0.23.2
+
 keras 2.4.3
+
 tensorflow-gpu 2.3.1 / Alternative: tensorflow (latest version)
 
 Some other dependent libraries may be needed, please install as required.
